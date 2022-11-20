@@ -1,11 +1,4 @@
-<?php
-//require_once './connectbd.php';
-// On créé la requête
-//$req = "INSERT INTO Utilisateur(Nom, Prenom, Adresse, Email, Mdp) VALUES ('".$_POST['nom']."', '".$_POST['prenom']."', '".$_POST['adresse']."', '".$_POST['email']."', '".$_POST['password']."')";
-//$connexion->query($req);
-//include 'Se connecter.html'
-//
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">

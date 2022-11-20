@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Page d'accueil*/
 *{
     padding: 0px;
     margin: 0px;
@@ -124,6 +125,11 @@ section{
     align-items: center;
 
 }
+.row .apropdenous .txt{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
 .row .apropdenous h2{
     margin-bottom: 20px;
 }
@@ -145,8 +151,74 @@ section{
     position: relative;
 
 }
+/*page Nos Robes*/
+.dress{
+    margin-top: 100px;
+    padding: 10px 20px;
+}
+.col-md-4{
+    margin-top: 50px;
+    padding: 20px 0px;
+}
+
+/*Page contact */
+.conactens{
+    margin:35px;
+}
+form .separation {
+  width: 100%;
+  height: 1px;
+}
+form .corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding:30px 20px;
+}
 
 
 
+form .corps-formulaire .groupe {
+  position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+  margin-top: 20px;
+  padding:20px 20px;
 
+  display: flex;
+  flex-direction: column;
+}
+form .corps-formulaire .gauche .groupe input {
+  margin-top: 5px;  outline-color: none;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid none;
+  border-radius: 5px;
+}
 
+form .corps-formulaire .droite {
+  margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe {
+  height: 100%;
+}
+form .corps-formulaire .droite .groupe textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 2px solid none;
+  outline:none;
+  border-radius: 5px;
+  resize: none;
+  height: 72%;
+}
+ form .pied-formulaire button {
+  margin-top: 100px;
+  background-color: #eb7371;
+  color:white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+  text-align: left;
+}
