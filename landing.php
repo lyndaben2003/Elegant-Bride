@@ -20,11 +20,7 @@
 </head>
 
 <body>
-    <?php
-        if(isset($_SESSION['Email'])){
-            echo "<h1> JE SUIS CONNECTER AVEC LE COMPTE:".$_SESSION['Email']."</h1>";
-        }
-    ?>
+   
     <h1>Bienvenu</h1> <?php echo $userrow['Email']; ?> 
     <hr />
     <h2>  Choisir une robe  </h2>
@@ -52,7 +48,7 @@
                 <option value="4">4</option>
         </select>
         <br></br>
-        <a href="..." class="btn btn-primary mt-3">
+        <a href="Nos-robes.php" class="btn btn-primary mt-3">
               Ajouter au panier <i class="fas fa-shopping-cart"></i>
             </a><br></br>
         <div class="deconnexion">
