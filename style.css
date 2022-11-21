@@ -4,7 +4,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family:  'poppins', sans-serif;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 
@@ -221,4 +220,7 @@ form .corps-formulaire .droite .groupe textarea {
   cursor: pointer;
   transition: transform 0.5s;
   text-align: left;
+}
+.nuum{
+    padding:10px 50px;
 }
